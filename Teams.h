@@ -45,9 +45,9 @@ class teams{
     cout<<"]"<<endl;
 		}
 		void message(){
-			cout<<"\nCT: PlayMars,porkbelly,Zeus,s1mple,3drob14"<<endl;
+			cout<<"\nCT: s1mple,edward,flaime,zeus,electronic"<<endl;
 		}
 		void message1(){
-			cout<<"T: _1234554321_,pokemon28,Jupiter,kalash_drobodan,branch"<<endl;
+			cout<<"T: gla1ve,dupreh,device,magisk,xyr9x"<<endl;
 		}
 };
