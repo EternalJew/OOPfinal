@@ -1,3 +1,3 @@
 # Counter-Strike: Global Offensive
-# Natus Vincere vs Astralis
-# GLHF
+#    Natus Vincere vs Astralis
+#               GLHF
