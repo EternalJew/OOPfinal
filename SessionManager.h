@@ -39,36 +39,36 @@ class person{
 	public:
 		void damage (CTside &d){
 			d.health-=91;
-			cout<<"Health of the PayMars is  "<<d.health<<endl;
+			cout<<"Health of the s1mple is  "<<d.health<<endl;
 		}
 		void kill (CTside &d){
 			d.health=0;
-			cout<<"Jupiter kill PlayMars. Health of the PlayMars is  "<<d.health<<endl;
+			cout<<"gla1ve kill s1mple. Health of the s1mple is  "<<d.health<<endl;
 		}
 		void damage (Tside &d){
 			d.health-=56;
-			cout<<"Health of the branch is  "<<d.health<<endl;
+			cout<<"Health of the device is  "<<d.health<<endl;
 		}
 		void kill1 (Tside &a){
 			a.health=0;
-			cout<<"s1mple kill branch. Health of the branch is  "<<a.health<<endl;
+			cout<<"s1mple kill device. Health of the device is  "<<a.health<<endl;
 		}
 		void Planted(){
 			cout<<"Bomb has been planted!"<<endl;
 		}
 		void kill2 (Tside &e){
 			e.health=0;
-			cout<<"porkbelly kill pokemon28. Health of the pokemon28 is  "<<e.health<<endl;
+			cout<<"porkbelly kill xyr9x. Health of the xyr9x is  "<<e.health<<endl;
 		}
 		void kill3 (Tside &c){
 			c.health=0;
-			cout<<"porkbelly kill kalash_drobodan. Health of the kalash_drobodan is  "<<c.health<<endl;
+			cout<<"porkbelly kill dupreh. Health of the dupreh is  "<<c.health<<endl;
 		}
 		void Smoke(){
-			cout<<"3drob14 threw smoke!"<<endl;
+			cout<<"electronic threw smoke!"<<endl;
 		}
 		void Defused(){
-			cout<<"The bomb has been defused by 3drob14"<<endl;
+			cout<<"The bomb has been defused by electronic"<<endl;
 		}
 		void Winner(){
 			cout<<"              CT WON"<<endl;
@@ -101,21 +101,21 @@ int main(int argc, char** argv) {
 	round.StartGunCT();
 	round.StartGunT();
 	round.StartHP();
-	CTside PayMars;
-	person Jupiter;
-	Jupiter.damage(PayMars);
-	Jupiter.kill(PayMars);
-	Tside branch;
+	CTside s1mple;
+	person gla1ve;
+	gla1ve.damage(s1mple);
+	gla1ve.kill(s1mple);
+	Tside device;
 	person porkbelly;
 	person s1mple;
-	s1mple.damage(branch);
-	s1mple.kill1(branch);
+	s1mple.damage(device);
+	s1mple.kill1(device);
 	person bomb;
 	bomb.Planted();
-	Tside kalash_drobodan;
-	Tside pokemon28;
-	porkbelly.kill2(pokemon28);
-	porkbelly.kill3(kalash_drobodan);
+	Tside dupreh;
+	Tside xyr9x;
+	porkbelly.kill2(xyr9x);
+	porkbelly.kill3(dupreh);
 	bomb.Smoke();
 	bomb.Defused();
 	bomb.Winner();
