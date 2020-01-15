@@ -1,3 +1,3 @@
 # Counter-Strike: Global Offensive
-#    Natus Vincere vs Astralis
+#    FACEIT: team s1mple vs team Dev1ce
 #               GLHF
