@@ -18,9 +18,9 @@ public:
 		}
 	}
 
-	void PerformGameSession(vector<Player>& players, vector<Hero>& heroes, int num) {
+	void PerformGameSession(vector<Player>& players, int num) {
 		for (int i = 0; i < num; i++) {
-			Session session(players, heroes);
+			Session session(players);
 			session.gameStart(players);
 			session.saveLog();
 			session.showTime();
