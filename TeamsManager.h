@@ -8,12 +8,12 @@ public:
 
 	void generatePlayers(int n) {
 		vector<string> names = {
-			"Tom", "Jame", "Stive", "John", "Rick", "Fred", "Eric", "Diego", "Luke", "Philip", "Oliver", "Jake"
+			"s1mple", "Niko", "dev1ce", "gla1ve", "Guardian", "Fallen", "electronic", "Zeus", "Edward", "rain", "twistzzz", "Steiwe2k"
 		};
 		srand((unsigned)time(NULL));
 		for (int i = 0; i < n; i++) {
 			int idx = rand() % names.size();
-			Player player = Player(names[idx], 1000, i + 1);
+			Player player = Player(names[idx], 800, i + 1);
 			players.push_back(player);
 		}
 	}
@@ -30,13 +30,10 @@ public:
 
 	void ListOfPlayers() {
 		sortPlayersById();
-		cout << "==================================" << endl << endl;
 		for (size_t i = 0; i < players.size(); i++) {
 			cout << "Name: " << players[i].getName()
 				<< "\tID: " << players[i].getID()
 				<< "\tRank: " << players[i].getRank()
-				<< endl << endl
-				<< "=================================="
 				<< endl << endl;
 		}
 	}
@@ -59,7 +56,7 @@ public:
 
 	void AddPlayer(string name) {
 		int id = players[players.size() - 1].getID() + 1;
-		Player player = Player(name, 1000, id);
+		Player player = Player(name, 800, id);
 		players.push_back(player);
 	}
 
