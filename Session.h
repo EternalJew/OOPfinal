@@ -50,7 +50,7 @@ class Session
 			{
 				switch (winner) {
 				case 1:
-					// Blue
+					// S1mple
 					if (players[j].getID() == idS1mple) players[j].addRank();
 					if (players[j].getID() == idDev1ce) players[j].subRank();
 					break;
@@ -209,11 +209,11 @@ public:
 				<< "\tID: " << TeamDev1ce[i].player.getID()
 				<< "\tRank: " << TeamDev1ce[i].player.getRank()
 				<< endl;
-		//Save team blue
+		//Save team S1mple
 		fout << endl
-			<< "                  Team Blue" << endl << endl
+			<< "                  Team S1mple" << endl << endl
 			<< "================================================" << endl << endl;
-		for (size_t i = 0; i < TeamBlue.size(); i++)
+		for (size_t i = 0; i < TeamS1mple.size(); i++)
 		{
 			//Show player info
 			fout << "Name: " << TeamS1mple[i].player.getName()
