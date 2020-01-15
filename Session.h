@@ -15,7 +15,7 @@ class Session
 			hpS1mple += TeamS1mple[i].getHP();
 			damageS1mple += TeamS1mple[i].getDamage();
 		}
-		for (size_t i = 0; i < TeamRed.size(); i++) {
+		for (size_t i = 0; i < TeamDev1ce.size(); i++) {
 			hpDev1ce += TeamDev1ce[i].getHP();
 			damageDev1ce += TeamDev1ce[i].getDev1ce();
 		}
@@ -55,7 +55,7 @@ class Session
 					if (players[j].getID() == idDev1ce) players[j].subRank();
 					break;
 				case 2:
-					// Red
+					// Dev1ce
 					if (players[j].getID() == idDev1ce) players[j].addRank();
 					if (players[j].getID() == idS1mple) players[j].subRank();
 					break;
